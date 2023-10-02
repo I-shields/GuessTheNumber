@@ -12,10 +12,10 @@ using namespace std;
 
 int main()
 {
-    //MaxNum controls the range of random numbers
+    //MaxNum: controls the range of random numbers
     int MaxNum = 20;
 
-    //Tries hold the number of tries it took the user to guess the number
+    //Tries: hold the number of tries it took the user to guess the number
     int Tries = 0;
 
     //Gets the current time, and uses that as a seed
@@ -49,7 +49,7 @@ int main()
             Tries++;
         }
 
-        //if the ussers guess is the same, set gamewon to true to end the game, and exits the loop. Also adds 1 to the Tries variable
+        //if the users guess is the same, set gamewon to true to end the game, and exits the loop. Also adds 1 to the Tries variable
         else
         {
             GameWon = true;
